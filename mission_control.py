@@ -86,3 +86,33 @@ for i in range(len(dados_missao)):
         status_bat = "NORMAL"
         msg_bat = "Energia estável"
         risco_bat = 0
+        
+    if oxigenio < 80:
+        status_oxi = "CRÍTICO"
+        msg_oxi = "Oxigênio em nível crítico"
+        risco_oxi = 2
+
+    elif oxigenio <= 89:
+        status_oxi = "ATENÇÃO"
+        msg_oxi = "Oxigênio abaixo do ideal"
+        risco_oxi = 1
+
+    else:
+        status_oxi = "NORMAL"
+        msg_oxi = "Oxigênio adequado"
+        risco_oxi = 0
+
+    if estabilidade < 40:
+        status_est = "CRÍTICO"
+        msg_est = "Estabilidade operacional crítica"
+        risco_est = 2
+
+    elif estabilidade <= 69:
+        status_est = "ATENÇÃO"
+        msg_est = "Estabilidade operacional reduzida"
+        risco_est = 1
+
+    else:
+        status_est = "NORMAL"
+        msg_est = "Estabilidade operacional adequada"
+        risco_est = 0
