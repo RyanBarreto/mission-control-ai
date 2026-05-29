@@ -56,3 +56,33 @@ for i in range(len(dados_missao)):
         status_temp = "CRÍTICO"
         msg_temp = "Risco de superaquecimento"
         risco_temp = 2
+        
+    if comunicacao < 30:
+        status_com = "CRÍTICO"
+        msg_com = "Comunicação com a base em nível crítico"
+        risco_com = 2
+        
+    elif comunicacao <= 59:
+        status_com = "ATENÇÃO"
+        msg_com = "Comunicação instável"
+        risco_com = 1
+        
+    else:
+        status_com = "NORMAL"
+        msg_com = "Comunicação estável"
+        risco_com = 0
+
+    if bateria < 20:
+        status_bat = "CRÍTICO"
+        msg_bat = "Bateria em nível crítico"
+        risco_bat = 2
+
+    elif bateria <= 49:
+        status_bat = "ATENÇÃO"
+        msg_bat = "Bateria abaixo do recomendado"
+        risco_bat = 1
+
+    else:
+        status_bat = "NORMAL"
+        msg_bat = "Energia estável"
+        risco_bat = 0
