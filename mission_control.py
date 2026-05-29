@@ -34,5 +34,19 @@ for i in range(len(dados_missao)):
     print("Temperatura:", temperatura)
     print("Comunicação:", comunicacao)
     print("Bateria:", bateria)
+
+    if temperatura < 18:
+    status_temp = "ATENÇÃO"
+
+elif temperatura <= 30:
+    status_temp = "NORMAL"
+
+elif temperatura <= 35:
+    status_temp = "ATENÇÃO"
+
+else:
+    status_temp = "CRÍTICO"
+
+print(status_temp)
     print("Oxigênio:", oxigenio)
     print("Estabilidade:", estabilidade)
