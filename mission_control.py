@@ -20,3 +20,19 @@ equipe = "Equipe Apollo"
 
 print("MISSION CONTROL AI")
 print(nome_missao)
+
+for i in range(len(dados_missao)):
+
+    print("\nCICLO", i + 1)
+
+    temperatura = dados_missao[i][0]
+    comunicacao = dados_missao[i][1]
+    bateria = dados_missao[i][2]
+    oxigenio = dados_missao[i][3]
+    estabilidade = dados_missao[i][4]
+
+    print("Temperatura:", temperatura)
+    print("Comunicação:", comunicacao)
+    print("Bateria:", bateria)
+    print("Oxigênio:", oxigenio)
+    print("Estabilidade:", estabilidade)
