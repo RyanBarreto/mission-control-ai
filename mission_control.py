@@ -141,3 +141,13 @@ for i in range(len(dados_missao)):
 
     else:
         classificacao = "MISSÃO CRÍTICA"
+
+    if risco_total == 0:
+    recomendacao = (
+        "Manter operação normal e continuar monitoramento."
+    )
+
+elif risco_total <= 2:
+    recomendacao = (
+        "Verificar controle térmico da missão."
+    )
