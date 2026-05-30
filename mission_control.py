@@ -151,3 +151,9 @@ elif risco_total <= 2:
     recomendacao = (
         "Verificar controle térmico da missão."
     )
+
+elif risco_total <= 5:
+    recomendacao = (
+        "Monitorar sistemas em atenção e preparar plano de "
+        "contingência."
+    )
