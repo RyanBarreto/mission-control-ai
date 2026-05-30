@@ -116,6 +116,7 @@ for i in range(len(dados_missao)):
         status_est = "NORMAL"
         msg_est = "Estabilidade operacional adequada"
         risco_est = 0
+        
     risco_total = (
         risco_temp +
         risco_com +
@@ -123,3 +124,5 @@ for i in range(len(dados_missao)):
         risco_oxi +
         risco_est
     )
+
+    riscos_ciclos.append(risco_total)
