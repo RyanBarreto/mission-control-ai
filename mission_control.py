@@ -157,3 +157,8 @@ elif risco_total <= 5:
         "Monitorar sistemas em atenção e preparar plano de "
         "contingência."
     )
+else:
+    recomendacao = (
+        "Ativar modo de segurança e priorizar suporte à vida,\n"
+        "energia e comunicação."
+    )
