@@ -162,3 +162,6 @@ else:
         "Ativar modo de segurança e priorizar suporte à vida,\n"
         "energia e comunicação."
     )
+    
+print(f"Temperatura: {temperatura} °C | {status_temp} | {msg_temp}")
+print(f"Comunicação: {comunicacao}% | {status_com} | {msg_com}")
