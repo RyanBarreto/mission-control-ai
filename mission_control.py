@@ -132,3 +132,12 @@ for i in range(len(dados_missao)):
     risco_areas[2] += risco_bat
     risco_areas[3] += risco_oxi
     risco_areas[4] += risco_est
+
+    if risco_total <= 2:
+        classificacao = "MISSÃO ESTÁVEL"
+
+    elif risco_total <= 5:
+        classificacao = "MISSÃO EM ATENÇÃO"
+
+    else:
+        classificacao = "MISSÃO CRÍTICA"
