@@ -165,3 +165,5 @@ else:
     
 print(f"Temperatura: {temperatura} °C | {status_temp} | {msg_temp}")
 print(f"Comunicação: {comunicacao}% | {status_com} | {msg_com}")
+print(f"Bateria: {bateria}% | {status_bat} | {msg_bat}")
+print(f"Oxigênio: {oxigenio}% | {status_oxi} | {msg_oxi}")
