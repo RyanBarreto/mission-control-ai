@@ -126,3 +126,9 @@ for i in range(len(dados_missao)):
     )
 
     riscos_ciclos.append(risco_total)
+
+    risco_areas[0] += risco_temp
+    risco_areas[1] += risco_com
+    risco_areas[2] += risco_bat
+    risco_areas[3] += risco_oxi
+    risco_areas[4] += risco_est
