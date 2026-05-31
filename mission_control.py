@@ -196,3 +196,6 @@ media_com = soma_com / quantidade_ciclos
 media_bat = soma_bat / quantidade_ciclos
 media_oxi = soma_oxi / quantidade_ciclos
 media_est = soma_est / quantidade_ciclos
+
+maior_risco = max(riscos_ciclos)
+indice_ciclo_critico = riscos_ciclos.index(maior_risco)
