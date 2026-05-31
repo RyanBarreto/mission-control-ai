@@ -207,3 +207,12 @@ for risco in riscos_ciclos:
         ciclos_criticos += 1
 
 risco_medio = sum(riscos_ciclos) / quantidade_ciclos
+
+if riscos_ciclos[-1] > riscos_ciclos[0]:
+    tendencia = "A missão apresentou tendência de piora."
+
+elif riscos_ciclos[-1] < riscos_ciclos[0]:
+    tendencia = "A missão apresentou tendência de melhora."
+
+else:
+    tendencia = "A missão permaneceu estável."
