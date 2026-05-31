@@ -175,3 +175,9 @@ print(f"Recomendação: {recomendacao}")
 print("\n============================================================")
 print("RELATÓRIO FINAL DA MISSÃO")
 print("============================================================")
+
+soma_temp = 0
+soma_com = 0
+soma_bat = 0
+soma_oxi = 0
+soma_est = 0
