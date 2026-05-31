@@ -188,3 +188,11 @@ for ciclo in dados_missao:
     soma_bat += ciclo[2]
     soma_oxi += ciclo[3]
     soma_est += ciclo[4]
+
+quantidade_ciclos = len(dados_missao)
+
+media_temp = soma_temp / quantidade_ciclos
+media_com = soma_com / quantidade_ciclos
+media_bat = soma_bat / quantidade_ciclos
+media_oxi = soma_oxi / quantidade_ciclos
+media_est = soma_est / quantidade_ciclos
