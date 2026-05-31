@@ -181,3 +181,10 @@ soma_com = 0
 soma_bat = 0
 soma_oxi = 0
 soma_est = 0
+
+for ciclo in dados_missao:
+    soma_temp += ciclo[0]
+    soma_com += ciclo[1]
+    soma_bat += ciclo[2]
+    soma_oxi += ciclo[3]
+    soma_est += ciclo[4]
