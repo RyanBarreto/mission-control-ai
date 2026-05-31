@@ -199,3 +199,9 @@ media_est = soma_est / quantidade_ciclos
 
 maior_risco = max(riscos_ciclos)
 indice_ciclo_critico = riscos_ciclos.index(maior_risco)
+
+ciclos_criticos = 0
+
+for risco in riscos_ciclos:
+    if risco >= 6:
+        ciclos_criticos += 1
