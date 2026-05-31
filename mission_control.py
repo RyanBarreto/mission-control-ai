@@ -216,3 +216,6 @@ elif riscos_ciclos[-1] < riscos_ciclos[0]:
 
 else:
     tendencia = "A missão permaneceu estável."
+
+maior_pontuacao_area = max(risco_areas)
+indice_maior_area = risco_areas.index(maior_pontuacao_area)
