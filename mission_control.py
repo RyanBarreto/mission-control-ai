@@ -205,3 +205,5 @@ ciclos_criticos = 0
 for risco in riscos_ciclos:
     if risco >= 6:
         ciclos_criticos += 1
+
+risco_medio = sum(riscos_ciclos) / quantidade_ciclos
