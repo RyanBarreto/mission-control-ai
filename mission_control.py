@@ -171,3 +171,7 @@ print(f"Estabilidade: {estabilidade}% | {status_est} | {msg_est}")
 print(f"Pontuação de risco do ciclo: {risco_total}")
 print(f"Classificação do ciclo: {classificacao}")
 print(f"Recomendação: {recomendacao}")
+
+print("\n============================================================")
+print("RELATÓRIO FINAL DA MISSÃO")
+print("============================================================")
