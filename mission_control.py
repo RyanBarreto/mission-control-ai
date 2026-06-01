@@ -272,3 +272,8 @@ print(f"Quantidade de ciclos críticos: {ciclos_criticos}")
 
 print("\nTendência da missão:")
 print(tendencia)
+
+print("\nPontuação acumulada por área:")
+
+for i in range(len(areas_monitoradas)):
+    print(f"{areas_monitoradas[i]}: {risco_areas[i]} pontos")
