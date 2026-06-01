@@ -280,3 +280,9 @@ for i in range(len(areas_monitoradas)):
 
 print("\nÁrea mais afetada:")
 print(areas_monitoradas[indice_maior_area])
+
+print("\nClassificação final da missão:")
+print(classificacao_final)
+
+print("\nConclusão:")
+print(conclusao)
