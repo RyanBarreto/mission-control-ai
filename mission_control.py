@@ -165,19 +165,12 @@ for i in range(len(dados_missao)):
         )
 
     print(f"Temperatura: {temperatura} °C | {status_temp} | {msg_temp}")
-
     print(f"Comunicação: {comunicacao}% | {status_com} | {msg_com}")
-
     print(f"Bateria: {bateria}% | {status_bat} | {msg_bat}")
-
     print(f"Oxigênio: {oxigenio}% | {status_oxi} | {msg_oxi}")
-
     print(f"Estabilidade: {estabilidade}% | {status_est} | {msg_est}")
-
     print(f"Pontuação de risco do ciclo: {risco_total}")
-
     print(f"Classificação do ciclo: {classificacao}")
-
     print(f"Recomendação: {recomendacao}")
 
 
@@ -259,6 +252,7 @@ else:
         "Os sistemas apresentam falhas relevantes e ações "
         "emergenciais são necessárias."
     )
+    
 print(f"Missão: {nome_missao}")
 print(f"Equipe: {equipe}")
 print(f"Quantidade de ciclos analisados: {quantidade_ciclos}")
@@ -293,5 +287,3 @@ print(classificacao_final)
 
 print("\nConclusão:")
 print(conclusao)
-
-
