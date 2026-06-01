@@ -219,3 +219,12 @@ else:
 
 maior_pontuacao_area = max(risco_areas)
 indice_maior_area = risco_areas.index(maior_pontuacao_area)
+
+if risco_medio <= 2:
+    classificacao_final = "MISSÃO ESTÁVEL"
+
+elif risco_medio <= 5:
+    classificacao_final = "MISSÃO EM ATENÇÃO"
+
+else:
+    classificacao_final = "MISSÃO CRÍTICA"
