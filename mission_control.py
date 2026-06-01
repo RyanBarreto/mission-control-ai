@@ -255,8 +255,17 @@ else:
 print(f"Missão: {nome_missao}")
 print(f"Equipe: {equipe}")
 print(f"Quantidade de ciclos analisados: {quantidade_ciclos}")
+
 print(f"Média de temperatura: {media_temp:.2f} °C")
 print(f"Média de comunicação: {media_com:.2f}%")
 print(f"Média de bateria: {media_bat:.2f}%")
 print(f"Média de oxigênio: {media_oxi:.2f}%")
 print(f"Média de estabilidade: {media_est:.2f}%")
+
+print(f"Ciclo mais crítico: Ciclo {indice_ciclo_critico + 1}")
+
+print(f"Maior pontuação de risco: {maior_risco}")
+
+print(f"Risco médio da missão: {risco_medio:.2f}")
+
+print(f"Quantidade de ciclos críticos: {ciclos_criticos}")
