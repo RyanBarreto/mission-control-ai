@@ -277,3 +277,6 @@ print("\nPontuação acumulada por área:")
 
 for i in range(len(areas_monitoradas)):
     print(f"{areas_monitoradas[i]}: {risco_areas[i]} pontos")
+
+print("\nÁrea mais afetada:")
+print(areas_monitoradas[indice_maior_area])
