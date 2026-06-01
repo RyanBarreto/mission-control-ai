@@ -243,3 +243,11 @@ elif classificacao_final == "MISSÃO EM ATENÇÃO":
         "último ciclo, ainda existem sistemas em atenção e "
         "a equipe deve manter o plano de contingência ativo."
     )
+
+else:
+
+    conclusao = (
+        "A missão entrou em estado crítico em múltiplos ciclos. "
+        "Os sistemas apresentam falhas relevantes e ações "
+        "emergenciais são necessárias."
+    )
