@@ -235,3 +235,11 @@ if classificacao_final == "MISSÃO ESTÁVEL":
         "A missão operou dentro dos padrões esperados durante "
         "todos os ciclos monitorados."
     )
+elif classificacao_final == "MISSÃO EM ATENÇÃO":
+
+    conclusao = (
+        "A missão apresentou instabilidade relevante durante "
+        "a operação. Apesar da tentativa de recuperação no "
+        "último ciclo, ainda existem sistemas em atenção e "
+        "a equipe deve manter o plano de contingência ativo."
+    )
