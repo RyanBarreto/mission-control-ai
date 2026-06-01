@@ -228,3 +228,10 @@ elif risco_medio <= 5:
 
 else:
     classificacao_final = "MISSÃO CRÍTICA"
+
+if classificacao_final == "MISSÃO ESTÁVEL":
+
+    conclusao = (
+        "A missão operou dentro dos padrões esperados durante "
+        "todos os ciclos monitorados."
+    )
