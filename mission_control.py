@@ -269,3 +269,6 @@ print(f"Maior pontuação de risco: {maior_risco}")
 print(f"Risco médio da missão: {risco_medio:.2f}")
 
 print(f"Quantidade de ciclos críticos: {ciclos_criticos}")
+
+print("\nTendência da missão:")
+print(tendencia)
