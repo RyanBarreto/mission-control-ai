@@ -56,17 +56,17 @@ for i in range(len(dados_missao)):
         status_temp = "CRÍTICO"
         msg_temp = "Risco de superaquecimento"
         risco_temp = 2
-        
+
     if comunicacao < 30:
         status_com = "CRÍTICO"
         msg_com = "Comunicação com a base em nível crítico"
         risco_com = 2
-        
+
     elif comunicacao <= 59:
         status_com = "ATENÇÃO"
         msg_com = "Comunicação instável"
         risco_com = 1
-        
+
     else:
         status_com = "NORMAL"
         msg_com = "Comunicação estável"
@@ -86,7 +86,7 @@ for i in range(len(dados_missao)):
         status_bat = "NORMAL"
         msg_bat = "Energia estável"
         risco_bat = 0
-        
+
     if oxigenio < 80:
         status_oxi = "CRÍTICO"
         msg_oxi = "Oxigênio em nível crítico"
@@ -116,7 +116,7 @@ for i in range(len(dados_missao)):
         status_est = "NORMAL"
         msg_est = "Estabilidade operacional adequada"
         risco_est = 0
-        
+
     risco_total = (
         risco_temp +
         risco_com +
@@ -143,34 +143,43 @@ for i in range(len(dados_missao)):
         classificacao = "MISSÃO CRÍTICA"
 
     if risco_total == 0:
-    recomendacao = (
-        "Manter operação normal e continuar monitoramento."
-    )
+        recomendacao = (
+            "Manter operação normal e continuar monitoramento."
+        )
 
-elif risco_total <= 2:
-    recomendacao = (
-        "Verificar controle térmico da missão."
-    )
+    elif risco_total <= 2:
+        recomendacao = (
+            "Verificar controle térmico da missão."
+        )
 
-elif risco_total <= 5:
-    recomendacao = (
-        "Monitorar sistemas em atenção e preparar plano de "
-        "contingência."
-    )
-else:
-    recomendacao = (
-        "Ativar modo de segurança e priorizar suporte à vida,\n"
-        "energia e comunicação."
-    )
-    
-print(f"Temperatura: {temperatura} °C | {status_temp} | {msg_temp}")
-print(f"Comunicação: {comunicacao}% | {status_com} | {msg_com}")
-print(f"Bateria: {bateria}% | {status_bat} | {msg_bat}")
-print(f"Oxigênio: {oxigenio}% | {status_oxi} | {msg_oxi}")
-print(f"Estabilidade: {estabilidade}% | {status_est} | {msg_est}")
-print(f"Pontuação de risco do ciclo: {risco_total}")
-print(f"Classificação do ciclo: {classificacao}")
-print(f"Recomendação: {recomendacao}")
+    elif risco_total <= 5:
+        recomendacao = (
+            "Monitorar sistemas em atenção e preparar plano de "
+            "contingência."
+        )
+
+    else:
+        recomendacao = (
+            "Ativar modo de segurança e priorizar suporte à vida,\n"
+            "energia e comunicação."
+        )
+
+    print(f"Temperatura: {temperatura} °C | {status_temp} | {msg_temp}")
+
+    print(f"Comunicação: {comunicacao}% | {status_com} | {msg_com}")
+
+    print(f"Bateria: {bateria}% | {status_bat} | {msg_bat}")
+
+    print(f"Oxigênio: {oxigenio}% | {status_oxi} | {msg_oxi}")
+
+    print(f"Estabilidade: {estabilidade}% | {status_est} | {msg_est}")
+
+    print(f"Pontuação de risco do ciclo: {risco_total}")
+
+    print(f"Classificação do ciclo: {classificacao}")
+
+    print(f"Recomendação: {recomendacao}")
+
 
 print("\n============================================================")
 print("RELATÓRIO FINAL DA MISSÃO")
@@ -199,7 +208,6 @@ media_est = soma_est / quantidade_ciclos
 
 maior_risco = max(riscos_ciclos)
 indice_ciclo_critico = riscos_ciclos.index(maior_risco)
-
 ciclos_criticos = 0
 
 for risco in riscos_ciclos:
@@ -235,6 +243,7 @@ if classificacao_final == "MISSÃO ESTÁVEL":
         "A missão operou dentro dos padrões esperados durante "
         "todos os ciclos monitorados."
     )
+
 elif classificacao_final == "MISSÃO EM ATENÇÃO":
 
     conclusao = (
@@ -243,7 +252,6 @@ elif classificacao_final == "MISSÃO EM ATENÇÃO":
         "último ciclo, ainda existem sistemas em atenção e "
         "a equipe deve manter o plano de contingência ativo."
     )
-
 else:
 
     conclusao = (
@@ -251,7 +259,6 @@ else:
         "Os sistemas apresentam falhas relevantes e ações "
         "emergenciais são necessárias."
     )
-
 print(f"Missão: {nome_missao}")
 print(f"Equipe: {equipe}")
 print(f"Quantidade de ciclos analisados: {quantidade_ciclos}")
@@ -286,3 +293,5 @@ print(classificacao_final)
 
 print("\nConclusão:")
 print(conclusao)
+
+
