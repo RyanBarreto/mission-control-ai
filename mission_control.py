@@ -251,3 +251,7 @@ else:
         "Os sistemas apresentam falhas relevantes e ações "
         "emergenciais são necessárias."
     )
+
+print(f"Missão: {nome_missao}")
+print(f"Equipe: {equipe}")
+print(f"Quantidade de ciclos analisados: {quantidade_ciclos}")
