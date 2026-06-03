@@ -21,16 +21,18 @@ nome_missao = "Nebula Explorer IX"
 equipe = "Equipe Horizon"
 
 print("============================================================")
-print("MISSION CONTROL AI")
+print("CENTRAL DE MONITORAMENTO ESPACIAL")
 print("============================================================")
+
 print(f"Missão: {nome_missao}")
-print(f"Equipe: {equipe}")
+print(f"Equipe responsável: {equipe}")
+
 print(f"Quantidade de ciclos analisados: {len(dados_missao)}")
 
 for i in range(len(dados_missao)):
 
     print("\n============================================================")
-    print(f"CICLO {i + 1}")
+    print(f"CICLO OPERACIONAL {i + 1}")
     print("------------------------------------------------------------")
 
     temperatura = dados_missao[i][0]
