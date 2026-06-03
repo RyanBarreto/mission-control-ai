@@ -48,27 +48,27 @@ for i in range(len(dados_missao)):
 
     elif temperatura <= 30:
         status_temp = "NORMAL"
-        msg_temp = "Temperatura estável"
+        msg_temp = "Temperatura controlada"
         risco_temp = 0
 
     elif temperatura <= 35:
         status_temp = "ATENÇÃO"
-        msg_temp = "Temperatura elevada"
+        msg_temp = "Aquecimento moderado detectado"
         risco_temp = 1
 
     else:
         status_temp = "CRÍTICO"
-        msg_temp = "Risco de superaquecimento"
+        msg_temp = "Superaquecimento do módulo"
         risco_temp = 2
 
     if comunicacao < 30:
         status_com = "CRÍTICO"
-        msg_com = "Comunicação com a base em nível crítico"
+        msg_com = "Sinal de comunicação extremamente baixo"
         risco_com = 2
 
     elif comunicacao <= 59:
         status_com = "ATENÇÃO"
-        msg_com = "Comunicação instável"
+        msg_com = "Oscilação no sinal de comunicação"
         risco_com = 1
 
     else:
@@ -78,47 +78,47 @@ for i in range(len(dados_missao)):
 
     if bateria < 20:
         status_bat = "CRÍTICO"
-        msg_bat = "Bateria em nível crítico"
+        msg_bat = "Energia em nível crítico"
         risco_bat = 2
 
     elif bateria <= 49:
         status_bat = "ATENÇÃO"
-        msg_bat = "Bateria abaixo do recomendado"
+        msg_bat = "Consumo energético elevado"
         risco_bat = 1
 
     else:
         status_bat = "NORMAL"
-        msg_bat = "Energia estável"
+        msg_bat = "Energia operando normalmente"
         risco_bat = 0
 
     if oxigenio < 80:
         status_oxi = "CRÍTICO"
-        msg_oxi = "Oxigênio em nível crítico"
+        msg_oxi = "Oxigênio abaixo do nível seguro"
         risco_oxi = 2
 
     elif oxigenio <= 89:
         status_oxi = "ATENÇÃO"
-        msg_oxi = "Oxigênio abaixo do ideal"
+        msg_oxi = "Redução no nível de oxigênio"
         risco_oxi = 1
 
     else:
         status_oxi = "NORMAL"
-        msg_oxi = "Oxigênio adequado"
+        msg_oxi = "Suporte vital estável"
         risco_oxi = 0
 
     if estabilidade < 40:
         status_est = "CRÍTICO"
-        msg_est = "Estabilidade operacional crítica"
+        msg_est = "Estrutura da missão comprometida"
         risco_est = 2
 
     elif estabilidade <= 69:
         status_est = "ATENÇÃO"
-        msg_est = "Estabilidade operacional reduzida"
+        msg_est = "Oscilações estruturais detectadas"
         risco_est = 1
 
     else:
         status_est = "NORMAL"
-        msg_est = "Estabilidade operacional adequada"
+        msg_est = "Estrutura operacional estável"
         risco_est = 0
 
     risco_total = (
