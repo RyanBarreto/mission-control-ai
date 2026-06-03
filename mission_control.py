@@ -1,22 +1,24 @@
 dados_missao = [
-    [24, 92, 88, 96, 90],
-    [27, 80, 72, 94, 85],
-    [31, 65, 58, 91, 70],
-    [36, 42, 38, 87, 55],
-    [39, 28, 19, 78, 35],
-    [34, 55, 32, 82, 50]
+    [22, 95, 90, 98, 93],
+    [26, 82, 76, 95, 88],
+    [30, 68, 61, 90, 73],
+    [35, 50, 44, 86, 60],
+    [38, 35, 22, 79, 40],
+    [33, 58, 37, 84, 57]
 ]
 areas_monitoradas = [
-    "Temperatura interna",
-    "Comunicação com a base",
-    "Sistema de energia",
-    "Suporte de oxigênio",
-    "Estabilidade operacional"
+    "Controle térmico",
+    "Sinal de comunicação",
+    "Reserva energética",
+    "Sistema de suporte vital",
+    "Controle estrutural"
 ]
+
 risco_areas = [0, 0, 0, 0, 0]
+
 riscos_ciclos = []
-nome_missao = "Orion Test Alpha"
-equipe = "Equipe Apollo"
+nome_missao = "Nebula Explorer IX"
+equipe = "Equipe Horizon"
 
 print("============================================================")
 print("MISSION CONTROL AI")
