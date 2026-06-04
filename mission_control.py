@@ -147,14 +147,16 @@ else:
     classificacao = "OPERAÇÃO CRÍTICA"
 
     if risco_total == 0:
-        recomendacao = (
-            "Manter operação normal e continuar monitoramento."
-        )
 
-    elif risco_total <= 2:
-        recomendacao = (
-            "Verificar controle térmico da missão."
-        )
+    recomendacao = (
+        "Manter monitoramento padrão da missão."
+    )
+
+elif risco_total <= 2:
+
+    recomendacao = (
+        "Realizar verificação preventiva nos sistemas."
+    )
 
     elif risco_total <= 5:
         recomendacao = (
