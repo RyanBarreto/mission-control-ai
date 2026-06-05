@@ -277,7 +277,7 @@ print(f"Maior pontuação de risco registrada: {maior_risco}")
 print(f"Risco médio da operação: {risco_medio:.2f}")
 print(f"Quantidade de ciclos críticos: {ciclos_criticos}")
 
-print("\nTendência da missão:")
+print("\nTendência operacional:")
 print(tendencia)
 
 print("\nPontuação acumulada por área:")
