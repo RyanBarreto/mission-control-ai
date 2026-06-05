@@ -233,19 +233,17 @@ maior_pontuacao_area = max(risco_areas)
 indice_maior_area = risco_areas.index(maior_pontuacao_area)
 
 if risco_medio <= 2:
-    classificacao_final = "MISSÃO ESTÁVEL"
-
+    classificacao_final = "OPERAÇÃO ESTÁVEL"
 elif risco_medio <= 5:
-    classificacao_final = "MISSÃO EM ATENÇÃO"
-
+    classificacao_final = "OPERAÇÃO EM ALERTA"
 else:
-    classificacao_final = "MISSÃO CRÍTICA"
+    classificacao_final = "OPERAÇÃO CRÍTICA"
 
-if classificacao_final == "MISSÃO ESTÁVEL":
-
+if classificacao_final == "OPERAÇÃO ESTÁVEL":
     conclusao = (
-        "A missão operou dentro dos padrões esperados durante "
-        "todos os ciclos monitorados."
+        "A missão Nebula Explorer IX operou dentro "
+        "dos parâmetros esperados durante os ciclos "
+        "monitorados."
     )
 
 elif classificacao_final == "MISSÃO EM ATENÇÃO":
