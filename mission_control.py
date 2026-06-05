@@ -287,8 +287,7 @@ for i in range(len(areas_monitoradas)):
 print("\nSistema mais afetado:")
 print(areas_monitoradas[indice_maior_area])
 
-print("\nClassificação final da missão:")
+print("\nClassificação final da operação:")
 print(classificacao_final)
-
-print("\nConclusão:")
+print("\nConclusão da missão:")
 print(conclusao)
