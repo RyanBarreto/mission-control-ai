@@ -284,7 +284,7 @@ print("\nPontuação acumulada por sistema monitorado:")
 for i in range(len(areas_monitoradas)):
     print(f"{areas_monitoradas[i]}: {risco_areas[i]} pontos")
 
-print("\nÁrea mais afetada:")
+print("\nSistema mais afetado:")
 print(areas_monitoradas[indice_maior_area])
 
 print("\nClassificação final da missão:")
