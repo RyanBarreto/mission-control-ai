@@ -166,10 +166,10 @@ elif risco_total <= 2:
     )
 
     else:
-        recomendacao = (
-            "Ativar modo de segurança e priorizar suporte à vida,\n"
-            "energia e comunicação."
-        )
+
+    recomendacao = (
+        "Ativar protocolo de emergência imediatamente."
+    )
 
     print(f"Temperatura: {temperatura} °C | {status_temp} | {msg_temp}")
     print(f"Comunicação: {comunicacao}% | {status_com} | {msg_com}")
