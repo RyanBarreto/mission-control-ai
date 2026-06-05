@@ -272,12 +272,9 @@ print(f"Média de bateria: {media_bat:.2f}%")
 print(f"Média de oxigênio: {media_oxi:.2f}%")
 print(f"Média de estabilidade estrutural: {media_est:.2f}%")
 
-print(f"Ciclo mais crítico: Ciclo {indice_ciclo_critico + 1}")
-
-print(f"Maior pontuação de risco: {maior_risco}")
-
-print(f"Risco médio da missão: {risco_medio:.2f}")
-
+print(f"Ciclo operacional mais crítico: {indice_ciclo_critico + 1}")
+print(f"Maior pontuação de risco registrada: {maior_risco}")
+print(f"Risco médio da operação: {risco_medio:.2f}")
 print(f"Quantidade de ciclos críticos: {ciclos_criticos}")
 
 print("\nTendência da missão:")
