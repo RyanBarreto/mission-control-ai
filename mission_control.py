@@ -246,13 +246,13 @@ if classificacao_final == "OPERAÇÃO ESTÁVEL":
         "monitorados."
     )
 
-elif classificacao_final == "MISSÃO EM ATENÇÃO":
+elif classificacao_final == "OPERAÇÃO EM ALERTA":
 
     conclusao = (
-        "A missão apresentou instabilidade relevante durante "
-        "a operação. Apesar da tentativa de recuperação no "
-        "último ciclo, ainda existem sistemas em atenção e "
-        "a equipe deve manter o plano de contingência ativo."
+        "A missão apresentou oscilações relevantes "
+        "em alguns sistemas críticos. A equipe Horizon "
+        "deve manter monitoramento reforçado e protocolos "
+        "preventivos ativos."
     )
 else:
 
