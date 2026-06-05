@@ -217,13 +217,17 @@ for risco in riscos_ciclos:
 risco_medio = sum(riscos_ciclos) / quantidade_ciclos
 
 if riscos_ciclos[-1] > riscos_ciclos[0]:
-    tendencia = "A missão apresentou tendência de piora."
-
+    tendencia = (
+        "Os sistemas apresentaram aumento gradual de instabilidade."
+    )
 elif riscos_ciclos[-1] < riscos_ciclos[0]:
-    tendencia = "A missão apresentou tendência de melhora."
-
+    tendencia = (
+        "Os sistemas demonstraram recuperação operacional."
+    )
 else:
-    tendencia = "A missão permaneceu estável."
+    tendencia = (
+        "A operação permaneceu estável durante os ciclos."
+    )
 
 maior_pontuacao_area = max(risco_areas)
 indice_maior_area = risco_areas.index(maior_pontuacao_area)
