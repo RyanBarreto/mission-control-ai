@@ -159,10 +159,11 @@ elif risco_total <= 2:
     )
 
     elif risco_total <= 5:
-        recomendacao = (
-            "Monitorar sistemas em atenção e preparar plano de "
-            "contingência."
-        )
+
+    recomendacao = (
+        "Intensificar monitoramento e preparar "
+        "procedimentos de contingência."
+    )
 
     else:
         recomendacao = (
