@@ -270,7 +270,7 @@ print(f"Média de temperatura: {media_temp:.2f} °C")
 print(f"Média de comunicação: {media_com:.2f}%")
 print(f"Média de bateria: {media_bat:.2f}%")
 print(f"Média de oxigênio: {media_oxi:.2f}%")
-print(f"Média de estabilidade: {media_est:.2f}%")
+print(f"Média de estabilidade estrutural: {media_est:.2f}%")
 
 print(f"Ciclo mais crítico: Ciclo {indice_ciclo_critico + 1}")
 
