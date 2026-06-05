@@ -263,7 +263,7 @@ else:
     )
     
 print(f"Missão: {nome_missao}")
-print(f"Equipe: {equipe}")
+print(f"Equipe responsável: {equipe}")
 print(f"Quantidade de ciclos analisados: {quantidade_ciclos}")
 
 print(f"Média de temperatura: {media_temp:.2f} °C")
