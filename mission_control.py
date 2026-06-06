@@ -6,6 +6,7 @@ dados_missao = [
     [38, 35, 22, 79, 40],
     [33, 58, 37, 84, 57]
 ]
+
 areas_monitoradas = [
     "Controle térmico",
     "Sinal de comunicação",
@@ -17,6 +18,7 @@ areas_monitoradas = [
 risco_areas = [0, 0, 0, 0, 0]
 
 riscos_ciclos = []
+
 nome_missao = "Nebula Explorer IX"
 equipe = "Equipe Horizon"
 
@@ -26,7 +28,6 @@ print("============================================================")
 
 print(f"Missão: {nome_missao}")
 print(f"Equipe responsável: {equipe}")
-
 print(f"Quantidade de ciclos analisados: {len(dados_missao)}")
 
 for i in range(len(dados_missao)):
@@ -137,6 +138,7 @@ for i in range(len(dados_missao)):
     risco_areas[3] += risco_oxi
     risco_areas[4] += risco_est
 
+    # CLASSIFICAÇÃO
     if risco_total <= 2:
         classificacao = "OPERAÇÃO ESTÁVEL"
 
@@ -148,28 +150,28 @@ for i in range(len(dados_missao)):
 
     if risco_total == 0:
 
-    recomendacao = (
-        "Manter monitoramento padrão da missão."
-    )
+        recomendacao = (
+            "Manter monitoramento padrão da missão."
+        )
 
     elif risco_total <= 2:
 
-    recomendacao = (
-        "Realizar verificação preventiva nos sistemas."
-    )
+        recomendacao = (
+            "Realizar verificação preventiva nos sistemas."
+        )
 
     elif risco_total <= 5:
 
-    recomendacao = (
-        "Intensificar monitoramento e preparar "
-        "procedimentos de contingência."
-    )
+        recomendacao = (
+            "Intensificar monitoramento e preparar "
+            "procedimentos de contingência."
+        )
 
     else:
 
-    recomendacao = (
-        "Ativar protocolo de emergência imediatamente."
-    )
+        recomendacao = (
+            "Ativar protocolo de emergência imediatamente."
+        )
 
     print(f"Temperatura: {temperatura} °C | {status_temp} | {msg_temp}")
     print(f"Comunicação: {comunicacao}% | {status_com} | {msg_com}")
@@ -179,7 +181,6 @@ for i in range(len(dados_missao)):
     print(f"Pontuação de risco do ciclo: {risco_total}")
     print(f"Classificação do ciclo: {classificacao}")
     print(f"Recomendação: {recomendacao}")
-
 
 print("\n============================================================")
 print("RELATÓRIO FINAL DA MISSÃO")
@@ -208,6 +209,7 @@ media_est = soma_est / quantidade_ciclos
 
 maior_risco = max(riscos_ciclos)
 indice_ciclo_critico = riscos_ciclos.index(maior_risco)
+
 ciclos_criticos = 0
 
 for risco in riscos_ciclos:
@@ -217,14 +219,19 @@ for risco in riscos_ciclos:
 risco_medio = sum(riscos_ciclos) / quantidade_ciclos
 
 if riscos_ciclos[-1] > riscos_ciclos[0]:
+
     tendencia = (
         "Os sistemas apresentaram aumento gradual de instabilidade."
     )
+
 elif riscos_ciclos[-1] < riscos_ciclos[0]:
+
     tendencia = (
         "Os sistemas demonstraram recuperação operacional."
     )
+
 else:
+
     tendencia = (
         "A operação permaneceu estável durante os ciclos."
     )
@@ -234,12 +241,15 @@ indice_maior_area = risco_areas.index(maior_pontuacao_area)
 
 if risco_medio <= 2:
     classificacao_final = "OPERAÇÃO ESTÁVEL"
+
 elif risco_medio <= 5:
     classificacao_final = "OPERAÇÃO EM ALERTA"
+
 else:
     classificacao_final = "OPERAÇÃO CRÍTICA"
 
 if classificacao_final == "OPERAÇÃO ESTÁVEL":
+
     conclusao = (
         "A missão Nebula Explorer IX operou dentro "
         "dos parâmetros esperados durante os ciclos "
@@ -254,6 +264,7 @@ elif classificacao_final == "OPERAÇÃO EM ALERTA":
         "deve manter monitoramento reforçado e protocolos "
         "preventivos ativos."
     )
+
 else:
 
     conclusao = (
@@ -261,7 +272,7 @@ else:
         "Os sistemas apresentam falhas relevantes e ações "
         "emergenciais são necessárias."
     )
-    
+
 print(f"Missão: {nome_missao}")
 print(f"Equipe responsável: {equipe}")
 print(f"Quantidade de ciclos analisados: {quantidade_ciclos}")
@@ -281,6 +292,7 @@ print("\nTendência operacional:")
 print(tendencia)
 
 print("\nPontuação acumulada por sistema monitorado:")
+
 for i in range(len(areas_monitoradas)):
     print(f"{areas_monitoradas[i]}: {risco_areas[i]} pontos")
 
@@ -289,5 +301,6 @@ print(areas_monitoradas[indice_maior_area])
 
 print("\nClassificação final da operação:")
 print(classificacao_final)
+
 print("\nConclusão da missão:")
 print(conclusao)
