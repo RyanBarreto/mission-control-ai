@@ -138,13 +138,13 @@ for i in range(len(dados_missao)):
     risco_areas[4] += risco_est
 
     if risco_total <= 2:
-    classificacao = "OPERAÇÃO ESTÁVEL"
+        classificacao = "OPERAÇÃO ESTÁVEL"
 
     elif risco_total <= 5:
-    classificacao = "OPERAÇÃO EM ALERTA"
+        classificacao = "OPERAÇÃO EM ALERTA"
 
     else:
-    classificacao = "OPERAÇÃO CRÍTICA"
+        classificacao = "OPERAÇÃO CRÍTICA"
 
     if risco_total == 0:
 
