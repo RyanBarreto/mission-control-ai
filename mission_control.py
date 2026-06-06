@@ -140,10 +140,10 @@ for i in range(len(dados_missao)):
     if risco_total <= 2:
     classificacao = "OPERAÇÃO ESTÁVEL"
 
-elif risco_total <= 5:
+    elif risco_total <= 5:
     classificacao = "OPERAÇÃO EM ALERTA"
 
-else:
+    else:
     classificacao = "OPERAÇÃO CRÍTICA"
 
     if risco_total == 0:
@@ -152,7 +152,7 @@ else:
         "Manter monitoramento padrão da missão."
     )
 
-elif risco_total <= 2:
+    elif risco_total <= 2:
 
     recomendacao = (
         "Realizar verificação preventiva nos sistemas."
