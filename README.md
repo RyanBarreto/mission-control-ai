@@ -282,3 +282,28 @@ O programa acumula pontuações de risco de cada sistema e identifica qual apres
 ```python
 maior_pontuacao_area = max(risco_areas)
 ```
+
+## Estruturas de Programação Utilizadas
+
+O projeto utiliza diversos conceitos fundamentais da programação.
+
+### Listas
+
+Utilizadas para armazenar dados da missão.
+
+### Estruturas condicionais
+
+Utilizadas para classificação dos sistemas.
+
+- if
+- elif
+- else
+
+ ### Estruturas de repetição
+
+Utilizadas para percorrer ciclos operacionais.
+
+for
+
+
+ 
