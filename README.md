@@ -305,5 +305,5 @@ Utilizadas para percorrer ciclos operacionais.
 
 for
 
-
+## Exemplo de Saída
  
