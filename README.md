@@ -341,3 +341,5 @@ Este projeto foi desenvolvido com foco em prática de:
 - cálculos estatísticos
 - organização de código
 - geração de relatórios
+
+## Possíveis Melhorias Futuras
