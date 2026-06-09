@@ -110,3 +110,26 @@ A cada ciclo, o programa:
 - Classifica o estado geral da operação
 - Exibe recomendações
 - Armazena dados para o relatório final
+
+## Sistema de Classificação
+
+Cada indicador possui regras específicas de análise.
+
+### Temperatura
+
+```python
+if temperatura < 18:
+```
+Temperaturas abaixo de 18 °C geram estado de atenção.
+```python
+elif temperatura <= 30:
+```
+Temperaturas entre 18 °C e 30 °C são consideradas normais.
+```python
+elif temperatura <= 35:
+```
+Temperaturas acima de 30 °C indicam aquecimento moderado.
+```python
+else:
+```
+Temperaturas acima de 35 °C representam risco crítico.
