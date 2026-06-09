@@ -13,3 +13,5 @@ Além da análise individual de cada ciclo, o programa também produz um relató
 ## Objetivo do Sistema
 
 O principal objetivo do sistema é monitorar continuamente dados operacionais da missão e transformar essas informações em análises de risco que auxiliem a tomada de decisões.
+
+O programa busca simular cenários reais de monitoramento espacial, nos quais pequenas alterações em sistemas críticos podem comprometer toda a operação.
