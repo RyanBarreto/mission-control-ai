@@ -133,3 +133,13 @@ Temperaturas acima de 30 °C indicam aquecimento moderado.
 else:
 ```
 Temperaturas acima de 35 °C representam risco crítico.
+
+### Comunicação
+
+A qualidade do sinal é analisada em porcentagem.
+
+| Faixa | Status |
+|---|---|
+| Menor que 30% | CRÍTICO |
+| 30% até 59% | ATENÇÃO |
+| Acima de 59% | NORMAL |
