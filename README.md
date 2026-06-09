@@ -15,3 +15,17 @@ Além da análise individual de cada ciclo, o programa também produz um relató
 O principal objetivo do sistema é monitorar continuamente dados operacionais da missão e transformar essas informações em análises de risco que auxiliem a tomada de decisões.
 
 O programa busca simular cenários reais de monitoramento espacial, nos quais pequenas alterações em sistemas críticos podem comprometer toda a operação.
+
+## Estrutura dos Dados
+
+Os dados da missão são armazenados na variável:
+
+```python
+dados_missao = [
+    [22, 95, 90, 98, 93],
+    [26, 82, 76, 95, 88],
+    [30, 68, 61, 90, 73],
+    [35, 50, 44, 86, 60],
+    [38, 35, 22, 79, 40],
+    [33, 58, 37, 84, 57]
+]
