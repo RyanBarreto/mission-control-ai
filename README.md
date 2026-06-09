@@ -143,3 +143,33 @@ A qualidade do sinal é analisada em porcentagem.
 | Menor que 30% | CRÍTICO |
 | 30% até 59% | ATENÇÃO |
 | Acima de 59% | NORMAL |
+
+### Bateria
+
+O sistema verifica a quantidade de energia restante.
+
+| Faixa | Status |
+|---|---|
+| Menor que 20% | CRÍTICO |
+| 20% até 49% | ATENÇÃO |
+| Acima de 49% | NORMAL |
+
+### Oxigênio
+
+O nível de oxigênio é essencial para manter condições seguras na nave.
+
+| Faixa | Status |
+|---|---|
+| Menor que 80% | CRÍTICO |
+| 80% até 89% | ATENÇÃO |
+| Acima de 89% | NORMAL |
+
+### Estabilidade Estrutural
+
+Analisa a integridade física da nave.
+
+| Faixa | Status |
+|---|---|
+| Menor que 40% | CRÍTICO |
+| 40% até 69% | ATENÇÃO |
+| Acima de 69% | NORMAL |
