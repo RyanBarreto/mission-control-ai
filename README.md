@@ -206,3 +206,28 @@ Com base na pontuação total, o ciclo recebe uma classificação.
 | 0 até 2 | OPERAÇÃO ESTÁVEL |
 | 3 até 5 | OPERAÇÃO EM ALERTA |
 | 6 ou mais | OPERAÇÃO CRÍTICA |
+
+## Recomendações Automáticas
+
+O sistema também gera recomendações automáticas.
+
+Exemplo:
+
+```python
+if risco_total == 0:
+```
+A missão continua normalmente.
+```python
+elif risco_total <= 2:
+```
+O sistema sugere verificações preventivas.
+```python
+elif risco_total <= 5:
+```
+O programa recomenda reforçar o monitoramento.
+```python
+else:
+```
+O sistema ativa protocolos de emergência.
+
+
