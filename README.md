@@ -58,3 +58,37 @@ Significa:
 | Bateria | 90% |
 | Oxigênio | 98% |
 | Estabilidade | 93% |
+
+## Sistemas Monitorados
+
+O programa monitora cinco sistemas principais da nave espacial.
+
+### Controle térmico
+
+Responsável por monitorar a temperatura interna da nave.
+
+Temperaturas muito altas podem causar superaquecimento dos sistemas eletrônicos. Temperaturas muito baixas podem comprometer equipamentos sensíveis.
+
+### Comunicação
+
+Responsável por verificar a qualidade do sinal de comunicação da nave.
+
+Falhas na comunicação podem dificultar o envio de informações entre a missão e a central de controle.
+
+### Reserva energética
+
+Monitora o nível de bateria disponível para os sistemas da nave.
+
+Níveis baixos de energia podem comprometer o funcionamento de equipamentos essenciais.
+
+### Sistema de suporte vital
+
+Controla o nível de oxigênio disponível.
+
+Valores abaixo do seguro representam risco direto para a sobrevivência da tripulação.
+
+### Controle estrutural
+
+Monitora a estabilidade estrutural da nave.
+
+Oscilações estruturais podem indicar danos físicos ou falhas mecânicas.
