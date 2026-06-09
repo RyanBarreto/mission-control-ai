@@ -173,3 +173,26 @@ Analisa a integridade física da nave.
 | Menor que 40% | CRÍTICO |
 | 40% até 69% | ATENÇÃO |
 | Acima de 69% | NORMAL |
+
+## Sistema de Pontuação de Risco
+
+Cada sistema recebe uma pontuação baseada no seu estado.
+
+| Status | Pontuação |
+|---|---|
+| NORMAL | 0 |
+| ATENÇÃO | 1 |
+| CRÍTICO | 2 |
+
+Essas pontuações são somadas:
+
+```python
+risco_total = (
+    risco_temp +
+    risco_com +
+    risco_bat +
+    risco_oxi +
+    risco_est
+)
+```
+O resultado representa o nível geral de risco do ciclo operacional.
