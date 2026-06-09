@@ -29,3 +29,16 @@ dados_missao = [
     [38, 35, 22, 79, 40],
     [33, 58, 37, 84, 57]
 ]
+
+Cada lista interna representa um ciclo operacional da missão.
+
+A ordem dos dados é:
+
+```python
+[
+    temperatura,
+    comunicacao,
+    bateria,
+    oxigenio,
+    estabilidade
+]
