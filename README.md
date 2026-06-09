@@ -196,3 +196,13 @@ risco_total = (
 )
 ```
 O resultado representa o nível geral de risco do ciclo operacional.
+
+## Classificação Operacional
+
+Com base na pontuação total, o ciclo recebe uma classificação.
+
+| Pontuação | Classificação |
+|---|---|
+| 0 até 2 | OPERAÇÃO ESTÁVEL |
+| 3 até 5 | OPERAÇÃO EM ALERTA |
+| 6 ou mais | OPERAÇÃO CRÍTICA |
