@@ -329,6 +329,8 @@ Pontuação de risco do ciclo: 0
 Classificação do ciclo: OPERAÇÃO ESTÁVEL
 ```
 
+## Objetivos Educacionais
+
 Este projeto foi desenvolvido com foco em prática de:
 
 - lógica de programação
