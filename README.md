@@ -92,3 +92,21 @@ Valores abaixo do seguro representam risco direto para a sobrevivência da tripu
 Monitora a estabilidade estrutural da nave.
 
 Oscilações estruturais podem indicar danos físicos ou falhas mecânicas.
+
+## Funcionamento do Programa
+
+O sistema percorre todos os ciclos operacionais utilizando um laço de repetição:
+
+```python
+for i in range(len(dados_missao)):
+```
+
+A cada ciclo, o programa:
+
+- Coleta os dados do ciclo atual
+- Analisa cada sistema individualmente
+- Define status operacionais
+- Calcula pontuações de risco
+- Classifica o estado geral da operação
+- Exibe recomendações
+- Armazena dados para o relatório final
