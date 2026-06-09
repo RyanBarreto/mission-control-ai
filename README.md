@@ -329,4 +329,13 @@ Pontuação de risco do ciclo: 0
 Classificação do ciclo: OPERAÇÃO ESTÁVEL
 ```
 
-## Como Executar o Projeto
+Este projeto foi desenvolvido com foco em prática de:
+
+- lógica de programação
+- análise de dados
+- monitoramento de sistemas
+- estruturas condicionais
+- estruturas de repetição
+- cálculos estatísticos
+- organização de código
+- geração de relatórios
