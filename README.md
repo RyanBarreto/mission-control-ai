@@ -29,6 +29,7 @@ dados_missao = [
     [38, 35, 22, 79, 40],
     [33, 58, 37, 84, 57]
 ]
+```
 
 Cada lista interna representa um ciclo operacional da missão.
 
@@ -42,3 +43,18 @@ A ordem dos dados é:
     oxigenio,
     estabilidade
 ]
+```
+Exemplo:
+
+```python
+[22, 95, 90, 98, 93]
+```
+Significa:
+
+| Indicador | Valor |
+|---|---|
+| Temperatura | 22 °C |
+| Comunicação | 95% |
+| Bateria | 90% |
+| Oxigênio | 98% |
+| Estabilidade | 93% |
