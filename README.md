@@ -230,4 +230,55 @@ else:
 ```
 O sistema ativa protocolos de emergência.
 
+## Relatório Final
 
+Após analisar todos os ciclos, o programa gera um relatório completo.
+
+### Médias operacionais
+
+O sistema calcula médias de:
+
+- Temperatura
+- Comunicação
+- Bateria
+- Oxigênio
+- Estabilidade estrutural
+
+Exemplo:
+
+```python
+media_temp = soma_temp / quantidade_ciclos
+```
+### Ciclo mais crítico
+
+O programa identifica qual ciclo apresentou maior risco.
+
+```python
+maior_risco = max(riscos_ciclos)
+```
+
+### Quantidade de ciclos críticos
+
+O sistema conta quantos ciclos tiveram risco elevado.
+
+```python
+if risco >= 6:
+```
+
+### Tendência operacional
+
+O sistema verifica se a missão piorou ou melhorou ao longo do tempo.
+
+Exemplo:
+
+```python
+if riscos_ciclos[-1] > riscos_ciclos[0]:
+```
+
+### Sistema mais afetado
+
+O programa acumula pontuações de risco de cada sistema e identifica qual apresentou mais falhas.
+
+```python
+maior_pontuacao_area = max(risco_areas)
+```
