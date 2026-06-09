@@ -329,3 +329,4 @@ Pontuação de risco do ciclo: 0
 Classificação do ciclo: OPERAÇÃO ESTÁVEL
 ```
 
+## Como Executar o Projeto
