@@ -307,3 +307,25 @@ for
 
 ## Exemplo de Saída
  
+```text
+============================================================
+CENTRAL DE MONITORAMENTO ESPACIAL
+============================================================
+
+Missão: Nebula Explorer IX
+Equipe responsável: Equipe Horizon
+
+============================================================
+CICLO OPERACIONAL 1
+------------------------------------------------------------
+
+Temperatura: 22 °C | NORMAL | Temperatura controlada
+Comunicação: 95% | NORMAL | Comunicação estável
+Bateria: 90% | NORMAL | Energia operando normalmente
+Oxigênio: 98% | NORMAL | Suporte vital estável
+Estabilidade: 93% | NORMAL | Estrutura operacional estável
+
+Pontuação de risco do ciclo: 0
+Classificação do ciclo: OPERAÇÃO ESTÁVEL
+```
+
