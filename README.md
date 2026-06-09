@@ -343,3 +343,14 @@ Este projeto foi desenvolvido com foco em prática de:
 - geração de relatórios
 
 ## Possíveis Melhorias Futuras
+
+O projeto pode ser expandido com:
+
+- interface gráfica
+- gráficos estatísticos
+- banco de dados
+- exportação em PDF
+- monitoramento em tempo real
+- integração com APIs
+- dashboard web
+- inteligência artificial para previsão de falhas
