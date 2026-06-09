@@ -354,3 +354,11 @@ O projeto pode ser expandido com:
 - integração com APIs
 - dashboard web
 - inteligência artificial para previsão de falhas
+
+## Conclusão
+
+O Sistema de Monitoramento Espacial — Nebula Explorer IX é uma simulação completa de análise operacional de uma missão espacial.
+
+O projeto demonstra como dados podem ser transformados em informações estratégicas utilizando programação, análise lógica e classificação de riscos.
+
+Além de servir como exercício de programação em Python, o sistema também representa um modelo simplificado de monitoramento utilizado em operações reais de engenharia e controle de sistemas críticos.
